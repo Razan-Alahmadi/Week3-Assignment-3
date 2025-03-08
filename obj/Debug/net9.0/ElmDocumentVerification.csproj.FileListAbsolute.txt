@@ -136,3 +136,4 @@ D:\file\Desktop\مجلد جديد\ElmDocumentVerification\bin\Debug\net9.0\Clien
 D:\file\Desktop\مجلد جديد\ElmDocumentVerification\bin\Debug\net9.0\ClientApp\tsconfig.app.json
 D:\file\Desktop\مجلد جديد\ElmDocumentVerification\bin\Debug\net9.0\ClientApp\tsconfig.json
 D:\file\Desktop\مجلد جديد\ElmDocumentVerification\bin\Debug\net9.0\ClientApp\tsconfig.spec.json
+D:\file\Desktop\مجلد جديد\ElmDocumentVerification\obj\Debug\net9.0\ElmDocumentVerification.sourcelink.json

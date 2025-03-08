@@ -121,7 +121,7 @@ namespace ElmDocumentVerification.Controllers
                     stopwatch.Stop();
                     Console.WriteLine($"🔴Dapper Query Execution Time: {stopwatch.ElapsedMilliseconds} ms");
 
-                    return Ok("Document verified successfully using Dapper.");
+            return Ok($"Document verified successfully using Dapper. Time taken: {stopwatch.ElapsedMilliseconds} ms");
                 }
             }
             catch (Exception ex)
@@ -175,7 +175,7 @@ namespace ElmDocumentVerification.Controllers
                 stopwatch.Stop();
                 Console.WriteLine($"🔴EF Core Query Execution Time: {stopwatch.ElapsedMilliseconds} ms");
 
-                return Ok("Document verified successfully using EF Core.");
+                return Ok($"Document verified successfully using EF Core. Time taken: {stopwatch.ElapsedMilliseconds} ms");
             }
             catch (Exception ex)
             {
